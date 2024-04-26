@@ -12,7 +12,4 @@ public class Constants {
     public static final String REGEX_FOR_500 = "\"Server Error \\(5xx\\)\",\"(\\d+)\"";
 
 
-
-
-
 }

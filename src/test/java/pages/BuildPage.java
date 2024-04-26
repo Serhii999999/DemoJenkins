@@ -14,4 +14,8 @@ public class BuildPage {
         Actions.click(driver.findElement(By.xpath("//*[text()='Console Output']")));
         return new BuildPage();
     }
+    public BuildPage clickFullLogButton(){
+        Actions.click(driver.findElement(By.xpath("//a[text()='Full Log']")));
+        return new BuildPage();
+    }
 }
